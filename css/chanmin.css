@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+* {
+    -webkit-text-size-adjust: none;
+    box-sizing: border-box;
+}
+
+body, td, input, textarea, div, th, p, a, address ul {
+    font-family: 'Montserrat','Noto Sans KR';
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    color: #666;
+    line-height: 1.4;
+    letter-spacing: -0.05em;
+    /* overflow: hidden; */
+}
+
+body {
+	font-family: Montserrat, "Noto Sans KR", sans-serif;
+	font-size: .875rem;
+	letter-spacing: -1px; /* 자간 : 글자와 글자의 간격 */
+	font-weight: 400; /* 글자-두께: 100~900, bold, bolder*/
+	padding: 0;
+	margin: 0;
+}
+
+.idiction-way-coment h3{
+	margin-right: 0px;
+    display: block;
+    font-size: 40px;
+    margin-bottom: 10px;
+	text-align: center;
+	color: black;
+}
+
+
+.idiction-way-coment h4{
+	font-size: 18px;
+    padding: 0px 0 20px;
+    color: #666;
+    line-height: 1.8;
+    display: block;
+    font-weight: normal;
+    text-align: center;
+} 
+
+.wideimage {
+	background: no-repeat center top;
+    background-size: cover;
+	
+    width: 100%;
+    height: 400px;
+    margin-top: 70px;
+}
+
+.pdb80 {
+    padding-bottom: 80px;
+}
+.pdt80 {
+    padding-top: 80px;
+}
+
+
+
+.inproduce {
+    position: relative;
+    font-size: 0px;
+    width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+.left-introduce {
+    display: inline-block;
+    width: 22%;
+    vertical-align: top;
+    font-size: 25px;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Noto Sans KR';
+    letter-spacing: 0px;
+	text-align : left;
+
+}
+
+
+
+.right-introduce {
+	
+   display: inline-block;
+    width: 78%;
+    vertical-align: top;
+    font-size: 16px;
+    line-height: 2;
+   
+}
+
+.right-introduce p {
+	margin:  0;
+	text-align: left;
+}
+
+.detail-inproduce {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    height: 595px;
+    background: url(../images/image3.jpg) no-repeat center top;
+    background-size: cover;
+}
+
+.detail-inproduce h1{
+	    font-size: 38px;
+    color: #000;
+    font-family: 'Noto Sans KR';
+    padding-top: 100px;
+    font-weight: normal;
+    margin: 0;
+}
+.detail-inproduce span{
+font-size: 16px;
+    font-family: 'Noto Sans KR';
+    margin: 10px 0px 23px;
+    display: block;
+    color: #666;
+    text-align: left;
+}
+
+.coleft {
+	text-align : left;
+    display: inline-block;
+    width: 22%;
+    vertical-align: top;
+    font-size: 25px;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Noto Sans KR';
+    letter-spacing: 0px;
+}
+.coright {
+    display: inline-block;
+    width: 78%;
+    vertical-align: top;
+    font-size: 16px;
+    line-height: 2;
+}
+
+table {
+    width: 100%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    -webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px;
+}
+
+.company-profile {
+    position: relative;
+    font-size: 0px;
+    width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.coright .profile tr:first-child td {
+    border-top: solid 1px #2463b9;
+}
+
+.coright .profile tr td {
+    border-bottom: dotted 1px #d2d2d2;
+    padding: 20px 45px;
+    color: #000;
+    font-size: 16px;
+    font-family: 'Noto Sans KR';
+    text-align: left;
+}
+
+
+
+
+
+
+
+
