@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="css/common.css">
 </head>
 <body>
@@ -114,7 +115,7 @@
     <h2 class="d-none">아이딕션 메인 섹션</h2>
     <article>
         <h3 class="d-none">커뮤니티</h3>
-        <div class="community-wrap">
+        <div class="community-wrap my-5">
             <div class="notice-part upper">
                 <h4>notice</h4>
                 <p class="latest-title">[comming soon]사이즈잇 3.7v 이벤트</p>
@@ -163,18 +164,75 @@
         </div>
     </article>
     <article>
-        <h3 class="d-none">아이딕션 기술</h3>
-        <h4 class="upper">technology</h4>
-        <p>스마트폰 카메라를 이용한 <strong class="upper">ai 이미지 프로세싱 &amp; 딥러닝 스캔</strong></p>
+        <hgroup class="text-center my-3">
+            <h3 class="d-none">아이딕션 기술</h3>
+            <h4 class="upper">technology</h4>
+            <p>스마트폰 카메라를 이용한 <strong class="upper">ai 이미지 프로세싱 &amp; 딥러닝 스캔</strong></p>
+        </hgroup>
+        <div class="tech-main">
+            <img src="images/main_body_img.png" alt="아이딕션 핵심기술">
+        </div>
     </article>
     <article>
         <h3 class="d-none">아이딕션 장점</h3>
+        <div class="benefit-wrap my-5 text-center">
+            <div>
+                <img src="images/main_sobi_icon1.jpg" alt="쇼핑카트">
+                <h3>소비자</h3>
+                <p>편리한 쇼핑환경을 제공합니다.</p>
+                <p>고객과 제품의 사이즈 매칭을 통해서 고객에게 가장 알맞은 사이즈를 추천하고 의류 맞춤 시 비대면 사이즈 측정으로 시간과 비용을 줄여줍니다.
+                </p>
+            </div>
+            <div>
+                <img src="images/main_sobi_icon2.jpg" alt="차트">
+                <h3>브랜드</h3>
+                <p>데이터를 모으고 분석합니다.</p>
+                <p>브랜드 방문 고객의 사이즈 분석을 통해 고객이 원하는 제품의 사이즈를 제시합니다. 사이즈로 인한 고객 반품과 고객 응대 시간을효과적으로 줄여줍니다.</p>
+            </div>
+            <div>
+                <img src="images/main_sobi_icon3.jpg" alt="기업체">
+                <h3>제조업체</h3>
+                <p>제조사의 사이즈 고민을 줄여줍니다.</p>
+                <p>고객을 직접 대면하지 않고 사이즈 데이터를 수집하여 맞춤 의류 제작에 필요한 시간과 비용을 효율적으로 관리, 모은 사이즈 DB를 자동으로 작업지시서에 저장합니다.
+                </p>
+            </div>
+        </div>
     </article>
     <article>
         <h3 class="d-none">비지니스 모델</h3>
+        <div class="biz-wrap text-center my-5">
+            <h4 class="cap">business model</h4>
+            <img src="images/main_business_img.jpg" alt="비지니스모델">
+        </div>
     </article>
     <article>
         <h3 class="d-none">아이딕션 활용분야</h3>
+        <div class="howto-wrap my-5">
+            <hgroup class="text-center">
+                <h4 class="upper">how to use</h4>
+                <p>아이딕션의 기술은 다양한 비즈니스에 활용됩니다.</p>
+            </hgroup>
+            <ul class="use-case d-flex">
+                <li>
+                    <img src="images/main_how_img1.jpg" alt="training shot">
+                    <h5 class="cap">training(diet)</h5>
+                    <p>동시 자세교정 및 코칭을 어드바이스, 신체변화를 측정해서 체형에 맞는 운동법과 몸매 유지 관리에 활용 할 수 있습니다.
+                    </p>
+                </li>
+                <li>
+                    <img src="images/main_how_img2.jpg" alt="training shot">
+                    <h5 class="cap">medical</h5>
+                    <p>신체 불균형을 확인 할 수 있어 교정 운동법을 통한 신체교정이나 재활 치료시, 도움을 받을 수 있습니다.
+                    </p>
+                </li>
+                <li>
+                    <img src="images/main_how_img3.jpg" alt="training shot">
+                    <h5 class="cap">fashion</h5>
+                    <p>신체 부위별 치수를 제공해 반품률 감소 및 소비자 만족도 증가로 사이즈문제로 버려지는 의류를 줄일 수 있습니다.
+                    </p>
+                </li>
+            </ul>
+        </div>
     </article>
     <article>
         <h3 class="d-none">커뮤니티</h3>
@@ -191,9 +249,18 @@
 </section>
 <footer>
     <div class="footer-wrap">
-        <div class="footer-logo">하단로고</div>
+        <div class="footer-logo">
+            <a href="#"><img src="images/flogo.png" alt="아이딕션"></a>
+        </div>
         <!-- /.footer-logo -->
-        <div class="site-info">사이트정보</div>
+        <div class="site-info">
+            <div class="total-info d-flex">
+                <p class="co-name">(주)아이딕션</p><div class="co-addr">서울시 강남구 선릉로 90길 10 B동 412호</div><div class="co-regno">사업자번호 160-87-01035</div><p class="co-phone">대표번호 1533-1256</p><p class="co-mou">제휴문의 jmyang@idic.io</p>
+            </div>
+            <div class="owner-info">
+                <p class="cap"><strong>copyright</strong>&copy; <em class="brand upper">idicition</em>. all rights reserved.</p>
+            </div>
+        </div>
         <!-- /.site-info -->
         <div class="social-icons">소셜아이콘</div>
         <!-- /.social-icons -->
