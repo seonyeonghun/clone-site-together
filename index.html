@@ -8,8 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+KR&display=swap" rel="stylesheet">
-    
     <link rel="stylesheet" href="css/common.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/092cd77c22.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <h1 class="d-none">아이딕션 웹사이트 클론코딩</h1>
@@ -49,7 +50,7 @@
         </div>
     </div>
     <header>
-        <div class="header-wrap">
+        <div class="header-wrap py-3">
             <div class="header-logo">
                 <a href="#">
                     <img src="images/logo.png" alt="아이딕션">
@@ -248,7 +249,7 @@
     </article>
 </section>
 <footer>
-    <div class="footer-wrap">
+    <div class="footer-wrap py-3">
         <div class="footer-logo">
             <a href="#"><img src="images/flogo.png" alt="아이딕션"></a>
         </div>
@@ -260,9 +261,27 @@
             <div class="owner-info">
                 <p class="cap"><strong>copyright</strong>&copy; <em class="brand upper">idicition</em>. all rights reserved.</p>
             </div>
+            <ul class="extra-nav d-flex">
+                <li><a href="#">개인정보취급방침</a></li>
+                <li><a href="#">법적고지</a></li>
+                <li><a href="#">이메일무단수집거부</a></li>
+            </ul>
         </div>
         <!-- /.site-info -->
-        <div class="social-icons">소셜아이콘</div>
+        <div class="outer-links">
+            <ul class="social-icons">
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-blogger-b"></i></a></li>
+            </ul>
+            <select id="jump" class="cap">
+                <option value="#">관련사이트</option>
+                <option value="#">sizit website</option>
+                <option value="#">sizit app iOs</option>
+                <option value="#">sizit android</option>
+            </select>
+        </div>
         <!-- /.social-icons -->
     </div>
     <!-- /.footer-wrap -->
