@@ -20,12 +20,14 @@ h4{
     text-align: center;
     padding: 1rem;
 }
-article img{
-    padding: 2rem;
+.dbimg{
+    text-align: center;
+    margin-bottom: 3rem;
 }
 article #content{
    font-size: 1rem;
-   padding: 3rem 12rem;
+   max-width: 1290px;
+   margin: 0 auto;
    color: #888;
    line-height: 1.7rem;
    letter-spacing: -0.05em;
