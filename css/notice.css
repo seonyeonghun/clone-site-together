@@ -1,0 +1,106 @@
+.d-none {
+  display: none;
+}
+body {
+  font-family: "Noto Sans KR", sans-serif;
+}
+.section {
+  position: relative;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.allpost {
+  display: flex;
+  justify-content: center;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.post1 {
+  display: inline-block;
+  margin: 2rem;
+  column-gap: 2rem;
+  font-size: 14px;
+  box-shadow: 4px 12px 30px 6px rgb(167, 167, 167);
+}
+.post2 {
+  display: inline-block;
+  margin: 2rem;
+  column-gap: 2rem;
+  font-size: 14px;
+  box-shadow: 4px 12px 30px 6px rgb(167, 167, 167);
+}
+.post3 {
+  display: inline-block;
+  margin: 2rem;
+  column-gap: 2rem;
+  font-size: 14px;
+  box-shadow: 4px 12px 30px 6px rgb(167, 167, 167);
+}
+.post4 {
+  display: inline-block;
+  margin: 2rem;
+  column-gap: 2rem;
+  font-size: 14px;
+  box-shadow: 4px 12px 30px 6px rgb(167, 167, 167);
+}
+.post5 {
+  display: inline-block;
+  margin: 2rem;
+  column-gap: 2rem;
+  font-size: 14px;
+  box-shadow: 4px 12px 30px 6px rgb(167, 167, 167);
+}
+
+.infoArea {
+  color: #666;
+  font-size:  13px;
+  padding: 50px 45px 30px;
+}
+.infoArea span {
+  color: #888;
+}
+.infotext h4{
+  color: #bbb;
+  font-size: 15px;
+  margin: 0 0 10px;
+}
+.infoArea h3 {
+  color: #010101;
+  font-size: 25px;
+  margin:  0 0 20px;
+}
+.infoArea  {
+  color: #888;
+  font-size: 16px;
+  margin: 0 5px 0 0;
+}
+.imgBox img {
+  display: block;
+  width: 100%;
+  height: auto !important;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+img {
+  aspect-ratio: auto 500 / 333;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: middle;
+}
+.hashtag span{
+  color: #666;
+}
+.hashtag a {
+  color: #888;
+}
