@@ -10,6 +10,11 @@ html , body {
 }
 .title-dis {
     text-align: center;
+    padding: 5rem;
+}
+.title-dis h1 {
+    font-size: 40px;
+    padding: 2rem;
 }
 h1{
     margin-right: 0px;
@@ -19,11 +24,12 @@ h1{
 }
 h2 {
     font-size: 18px;
-    padding: 0px 0 20px;
+ 
     color: #666;
     line-height: 1.8;
     display: block;
     font-weight: normal;
+    margin: 0;
 }
 .service-img01 {
     background-size: cover;
@@ -46,7 +52,7 @@ h2 {
     width: 100%;
     font-size: 0px;
     text-align: center;
-    padding: 50px;
+    padding: 60px;
     background-color: #FAFAFA;
 }
 .latest-list00 {
@@ -133,7 +139,7 @@ li {
     padding: 1rem;
 }
 .imgArea {
-    padding: 1rem;
+    padding-top: 2rem;
 }
 .text-area {
     padding: 1rem;
@@ -141,7 +147,7 @@ li {
 .tit {
     text-align: center;
     padding: 2rem;
-    font-size: 20px;
+    font-size: 38px;
     margin-bottom: 30px;
     margin-top: 50px;
 }
@@ -153,13 +159,61 @@ li {
     font-size: 16px;
     position: relative;
     font-weight: normal;
-    margin-bottom: 15px;
     font-family: 'Noto Sans KR';
     letter-spacing: 0px;
     color: #000;
+}
+.h2class {
+    color: #888;
 }
 
 .error {
     background-color: darkred;
     color: white;
+}
+
+.sub-inner {
+    display: flex;
+}
+
+.locations {
+    display: flex;
+}
+
+.left {
+    width: 22%;
+    text-align: left;
+}
+
+.right {
+    width: 78%;
+}
+.help {
+    padding: 5rem;
+}
+#sub-container-2 {
+    margin-bottom: 2rem;
+}
+.content {
+    text-align: center;
+}
+.content-1 {
+    font-size: 40px;
+    padding: 2rem;
+}
+.content-2 {
+    font-size: 18px;
+    padding: 0 0 2rem 2rem;
+}
+.business {
+    background-color: #F7F7F7;
+}
+.size-it-first {
+
+}
+.size-it {
+    font-size: ;
+}
+strong {
+    font-weight: bold;
 }
