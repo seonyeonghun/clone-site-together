@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 * {
     margin: 0rem;
     padding: 0rem;
@@ -41,24 +42,26 @@ h2 {
     width: 100%;
     font-size: 0px;
     text-align: center;
+    padding: 50px;
+    background-color: #FAFAFA;
 }
 .latest-list00 {
     text-align: center;
-    width: 33%;
+    width: 32%;
     display: inline-block;
     position: relative;
     vertical-align: top;
 }
 .latest-list01 {
     text-align: center;
-    width: 33%;
+    width: 32%;
     display: inline-block;
     position: relative;
     vertical-align: top;
 }
 .latest-list02 {
     text-align: center;
-    width: 34%;
+    width: 32%;
     display: inline-block;
     position: relative;
     vertical-align: top;
@@ -75,7 +78,7 @@ li {
     top: 40px;
     display: inline-block;
     width: 50px;
-    height: 35px;
+    height: 50px;
     background: #303030;
     color: #fff;
     font-size: 18px;
@@ -83,6 +86,11 @@ li {
     padding-top: 13px;
     border-radius: 50px;
     font-family: 'Noto Sans KR';
+}
+.analysis {
+    text-align: center;
+    background-color: #FAFAFA;
+    padding: 5rem;
 }
 .left {
     display: inline-block;
