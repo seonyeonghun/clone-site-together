@@ -59,12 +59,12 @@ a, a:link {
 	font-size: 1.8rem;
 	font-weight: 600;
 } 
-.g {
+.group {
 	display: flex;
 	margin-bottom: 100px;
 
 } 
-.gl {
+.group-left {
 	color: #1b72b8;
 	font-weight: 500;
 	margin-right: 150px;
