@@ -4,6 +4,10 @@
     margin: 0rem;
     padding: 0rem;
 }
+html , body {
+    margin: 0;
+    padding: 0;
+}
 .title-dis {
     text-align: center;
 }
@@ -71,6 +75,15 @@ li {
     font-size: 15px;
     color: #888;
     word-break: keep-all;
+    
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 1px;
+    border: dotted 1px #dcdcdc;
+    background: none;
+
 }
 .number {
     position: absolute;
@@ -134,4 +147,14 @@ li {
 }
 .b2c {
     text-align: center;
+}
+
+ h2{
+    font-size: 16px;
+    position: relative;
+    font-weight: normal;
+    margin-bottom: 15px;
+    font-family: 'Noto Sans KR';
+    letter-spacing: 0px;
+    color: #000;
 }
