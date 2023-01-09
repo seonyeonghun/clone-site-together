@@ -1,0 +1,88 @@
+@charset "UTF-8";
+* {
+	padding: 0;
+	margin: 0;
+}	
+
+body {
+	font-family: Montserrat, "Noto Sans KR", sans-serif;
+	font-size: .875rem;
+	letter-spacing: -1px; /* 자간 : 글자와 글자의 간격 */
+	font-weight: 400; /* 글자-두께: 100~900, bold, bolder*/
+}
+ul, ol {
+	list-style-type: none;
+}
+a, a:link {
+	text-decoration: none;
+	color: inherit;
+}
+.d-none {
+	display: none
+}
+
+.history {
+	margin: 1rem 3rem;
+	display: flex;
+	justify-content: center;
+} 
+.left-history {
+	display: inline-block;
+}
+.right-history {
+	display: inline-block;
+}  
+.current{
+	margin-top:100px;
+	font-size: 1.8rem;
+	font-weight: 600;
+	display: flex;
+	justify-content: center;
+} 
+.logo-w {
+	font-size: 1.8rem;
+	font-weight: 600;
+	display: flex;
+	justify-content: center;
+} 
+.vision li {
+	margin: 10px 0;
+	font-size: 1rem;
+	display: flex;
+	justify-content: center;
+} 
+
+.company-img {
+	margin: 3rem 3rem;
+	min-height: 400px;
+	width: 1920px;
+	background-image: url("../images/joby_sub_visual1-2.jpg"); /* 배경이미지 : 경로() */
+	background-position: center; /* 배경이미지-위치 : 수직,수평 가운데 */
+
+} 
+.dy {
+	margin-top: 100px;
+	color: #1b72b8;
+	font-weight: 500;
+	margin-bottom: 30px;
+	height: 100%;
+	font-size: 1.2rem;
+	display: flex;
+	justify-content: center;
+} 
+.detail li {
+	margin: 10px 0;
+	font-size: 1rem;
+	display: flex;
+	justify-content: center;
+} 
+.mini {
+	font-size: 1.1rem;
+	color: #1b72b8;
+} 
+
+
+
+
+
+
