@@ -13,6 +13,10 @@ body {
   margin-inline-end: 0px;
   padding-inline-start: 40px;
 }
+.allpost {
+  display: flex;
+  justify-content: center;
+}
 .material-symbols-outlined {
   font-variation-settings:
   'FILL' 0,
