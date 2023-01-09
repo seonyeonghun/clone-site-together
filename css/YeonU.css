@@ -1,0 +1,129 @@
+@charset "UTF-8";
+* {
+    margin: 0rem;
+    padding: 0rem;
+}
+.title-dis {
+    text-align: center;
+}
+h1{
+    margin-right: 0px;
+    display: block;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 18px;
+    padding: 0px 0 20px;
+    color: #666;
+    line-height: 1.8;
+    display: block;
+    font-weight: normal;
+}
+.service-img01 {
+    background-size: cover;
+}
+
+.tech {
+    position: relative;
+    display: block;
+    height: 100%;
+}
+.tech img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: middle;
+    
+}
+.wrapper {
+    position: relative;
+    width: 100%;
+    font-size: 0px;
+    text-align: center;
+}
+.latest-list00 {
+    text-align: center;
+    width: 33%;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+.latest-list01 {
+    text-align: center;
+    width: 33%;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+.latest-list02 {
+    text-align: center;
+    width: 34%;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+li {
+    font-family: 'Noto Sans KR';
+    font-size: 15px;
+    color: #888;
+    word-break: keep-all;
+}
+.number {
+    position: absolute;
+    left: 25px;
+    top: 40px;
+    display: inline-block;
+    width: 50px;
+    height: 35px;
+    background: #303030;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 13px;
+    border-radius: 50px;
+    font-family: 'Noto Sans KR';
+}
+.left {
+    display: inline-block;
+    width: 22%;
+    vertical-align: top;
+    font-size: 25px;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Noto Sans KR';
+    letter-spacing: 0px;
+}
+.blue {
+    display: block;
+    color: #1c73ba;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.imgArea {
+    width: 100%;
+}
+.left {
+    margin-left: 20px;
+    padding: 1rem;
+}
+.right {
+    margin-left: 20px;
+    padding: 1rem;
+}
+.imgArea {
+    padding: 1rem;
+}
+.text-area {
+    padding: 1rem;
+}
+.tit {
+    text-align: center;
+    padding: 2rem;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.b2c {
+    text-align: center;
+}
