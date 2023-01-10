@@ -1,13 +1,5 @@
 @charset "UTF-8";
 
-* {
-    margin: 0rem;
-    padding: 0rem;
-}
-html , body {
-    margin: 0;
-    padding: 0;
-}
 .title-dis {
     text-align: center;
     padding: 5rem;
