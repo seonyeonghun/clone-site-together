@@ -36,6 +36,7 @@ h2 {
 }
 
 .tech {
+    text-align: center;
     position: relative;
     display: block;
     height: 100%;
@@ -93,8 +94,8 @@ li {
 }
 .number {
     position: absolute;
-    left: 25px;
-    top: 40px;
+    left: 50px;
+    top: 10px;
     display: inline-block;
     width: 50px;
     height: 50px;
@@ -139,10 +140,12 @@ li {
     padding: 1rem;
 }
 .imgArea {
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 .text-area {
-    padding: 1rem;
+    margin-top: 10px;
+    font-size: 13px;
+    line-height: 2;
 }
 .tit {
     text-align: center;
@@ -207,13 +210,96 @@ li {
 }
 .business {
     background-color: #F7F7F7;
+    padding: 2rem;
 }
-.size-it-first {
-
+.size-it-org {
+    display: flex;
+    padding-bottom: 80px;
+    border-top: solid 1px #ddd;
+    padding-top: 80px;
+    height: 460px;
+    padding: 7rem;
 }
 .size-it {
-    font-size: ;
+    display: inline-block;
+    width: 22%;
+    vertical-align: top;
+    font-size: 25px;
+    font-family: 'Noto Sans KR';
+    color: #000;
+    font-weight: bold;
+}
+.size-it-1 {
+    padding-left: 0px;
+    font-weight: normal;
+}
+.size-it-img {
+    padding-left: 50px;
+    vertical-align: middle;
+    text-align: right;
 }
 strong {
     font-weight: bold;
+}
+
+.size-it-first {
+    display: inline-block;
+    padding-right: 3rem;
+    display: inline-block;
+    width: 22%;
+    vertical-align: top;
+    font-size: 25px;
+    font-family: 'Noto Sans KR';
+}
+
+.size-it-dis {
+
+}
+.app-img {
+    padding-top: 6rem;
+}
+.size-dibi-org {
+    display: flex;
+    padding-bottom: 80px;
+    border-top: solid 1px #ddd;
+    padding-top: 80px;
+    height: 460px;
+    padding: 7rem;
+}
+.size-dibi {
+    display: inline-block;
+    width: 22%;
+    vertical-align: top;
+    font-size: 25px;
+    font-family: 'Noto Sans KR';
+    color: #000;
+    font-weight: bold;
+}
+.size-dibi-1 {
+    padding-left: 0px;
+    font-weight: normal;
+}
+.size-dibi-img1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    padding-top: 5rem;
+    vertical-align: middle;
+}
+.size-dibi-first {
+    display: inline-block;
+    padding-right: 3rem;
+    display: inline-block;
+    width: 22%;
+    vertical-align: top;
+    font-size: 25px;
+    font-family: 'Noto Sans KR';
+}
+.solution {
+    padding-top: 12.5rem;
+}
+.size-dibi-img {
+    padding-left: 50px;
+    vertical-align: middle;
+    text-align: right;
 }
