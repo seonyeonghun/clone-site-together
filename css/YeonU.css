@@ -199,6 +199,7 @@ li {
 .content-2 {
     font-size: 18px;
     padding: 0 0 2rem 2rem;
+    padding-bottom: 4rem;
 }
 .business {
     background-color: #F7F7F7;
@@ -209,12 +210,9 @@ li {
     padding-bottom: 80px;
     border-top: solid 1px #ddd;
     padding-top: 80px;
-    height: 460px;
-    padding: 7rem;
 }
 .size-it {
     display: inline-block;
-    width: 22%;
     vertical-align: top;
     font-size: 25px;
     font-family: 'Noto Sans KR';
@@ -230,6 +228,13 @@ li {
     vertical-align: middle;
     text-align: right;
 }
+.size-it-img1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    padding-top: 5rem;
+    vertical-align: middle;
+}
 strong {
     font-weight: bold;
 }
@@ -237,30 +242,29 @@ strong {
 .size-it-first {
     display: inline-block;
     padding-right: 3rem;
-    display: inline-block;
     width: 22%;
     vertical-align: top;
     font-size: 25px;
     font-family: 'Noto Sans KR';
 }
-
 .size-it-dis {
-
+    font-size: 15px;
+    font-family: 'Noto Sans KR';
+    color: #333;
+    display: inline-block;
+    line-height: 1.5;
 }
 .app-img {
-    padding-top: 6rem;
+    padding-top: 11rem;
 }
 .size-dibi-org {
     display: flex;
     padding-bottom: 80px;
     border-top: solid 1px #ddd;
     padding-top: 80px;
-    height: 460px;
-    padding: 7rem;
 }
 .size-dibi {
     display: inline-block;
-    width: 22%;
     vertical-align: top;
     font-size: 25px;
     font-family: 'Noto Sans KR';
@@ -281,17 +285,79 @@ strong {
 .size-dibi-first {
     display: inline-block;
     padding-right: 3rem;
-    display: inline-block;
     width: 22%;
     vertical-align: top;
     font-size: 25px;
     font-family: 'Noto Sans KR';
 }
 .solution {
-    padding-top: 12.5rem;
+    font-size: 16px;
+    color: #888;
+    position: relative;
+    top: 5px;
+    padding-top: 9rem;
 }
 .size-dibi-img {
     padding-left: 50px;
     vertical-align: middle;
     text-align: right;
+}
+.size-dibi-dis {
+    font-size: 15px;
+    font-family: 'Noto Sans KR';
+    color: #333;
+    display: inline-block;
+    line-height: 1.5;
+}
+.size-talk-org {
+    display: flex;
+    padding-bottom: 80px;
+    border-top: solid 1px #ddd;
+    padding-top: 80px;
+}
+.size-talk {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 25px;
+    font-family: 'Noto Sans KR';
+    color: #000;
+    font-weight: bold;
+}
+.size-talk-1 {
+    padding-left: 0px;
+    font-weight: normal;
+}
+.size-talk-img1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    padding-top: 5rem;
+    vertical-align: middle;
+}
+.size-talk-first {
+    display: inline-block;
+    padding-right: 3rem;
+    width: 22%;
+    vertical-align: top;
+    font-size: 25px;
+    font-family: 'Noto Sans KR';
+}
+.size-talk-img {
+    padding-left: 50px;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.size-talk-dis {
+    display: inline-block;
+}
+.app-service {
+    padding: 11rem;
+}
+.size-talk-dis {
+    font-size: 15px;
+    font-family: 'Noto Sans KR';
+    color: #333;
+    display: inline-block;
+    line-height: 1.5;
 }
