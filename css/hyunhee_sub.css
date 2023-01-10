@@ -1,0 +1,42 @@
+@charset "UTF-8";
+a,
+a:link {
+  text-decoration: none;
+  color: inherit;
+}
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+    display: block;
+    padding-top: 2rem;
+    letter-spacing: -0.05em;
+}
+h4{
+    text-align: center;
+    font-size: 1.125rem;
+    color: #666;
+}
+.icon{
+    text-align: center;
+    padding: 1rem;
+}
+.dbimg{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+article #content{
+   font-size: 1rem;
+   max-width: 1290px;
+   margin: 0 auto;
+   color: #888;
+   line-height: 1.7rem;
+   letter-spacing: -0.05em;
+}
+.tags{
+    text-align: center;
+    padding: 1rem;
+}
+.list_btn{
+    text-align: center;
+    padding: 1rem;
+}
