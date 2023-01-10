@@ -26,14 +26,9 @@ a, a:link {
 	display: flex;
 	justify-content: center;
 } 
-.left-history {
-	display: inline-block;
-}
-.right-history {
-	display: inline-block;
-}  
+
 .current{
-	margin-top:100px;
+	margin-top:6.25rem;
 	font-size: 1.8rem;
 	font-weight: 600;
 	display: flex;
@@ -46,8 +41,8 @@ a, a:link {
 	justify-content: center;
 } 
 .vision li {
-	margin: 10px 0;
-	font-size: 1rem;
+	margin: .625rem 0;
+	font-size: 1.2rem;
 	display: flex;
 	justify-content: center;
 } 
@@ -64,31 +59,31 @@ a, a:link {
 	display: flex;
 } 
 .current{
-	margin-left: 130px;
-	margin-right: 150px;
+	margin-left: 8.125rem;
+	margin-right: 9.375rem;
 	font-size: 1.8rem;
 	font-weight: 600;
 } 
 .group {
 	display: flex;
-	margin-top: 100px;
-	margin-bottom: 100px;
+	margin-top: 6.25rem;
+	margin-bottom: 6.875rem;
 
 
 } 
 .group-left {
 	color: #1b72b8;
-	font-weight: 500;
-	margin-right: 150px;
-	margin-bottom: 30px;
-	padding-top: 10px;
-	font-size: 1.2rem;
+	font-weight: 600;
+	margin-right: 10.625rem;
+	margin-bottom: 1.875rem;
+	padding-top: .625rem;
+	font-size: 1.5rem;
 	display: flex;
 	justify-content: center;
 } 
 .detail li {
-	margin: 10px 0;
-	font-size: 1rem;
+	margin: .625rem 0;
+	font-size: 1.2rem;
 	display: flex;
 	justify-content: center;
 } 
