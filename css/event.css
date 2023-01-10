@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
 
 a{
 	text-decoration-line: none;
@@ -72,15 +80,19 @@ img{
 
 }
 
+
 .sear{
   display: block;
-	width: 180px;
+	width: 175px;
 	margin: 0 auto;
 	height: 60px;
 	background-color: white;
 	border: 0px solid black;
   margin-left: 36rem;
 
+}
+.search{
+  display:flex;
 }
 
 
@@ -97,8 +109,13 @@ img{
     display: flex;
 }
 
+.te{
+  margin-bottom: 5rem;
+}
 
-
+.stx{
+  margin-bottom: 5rem;
+}
 
 
 
