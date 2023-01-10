@@ -2,8 +2,7 @@ let isHit = false;
 window.addEventListener("DOMContentLoaded", function () {
   // HTML을 완전히 불러온 뒤 아래 메소드를 호출하는 이벤트
   modal();
-  gnb();
-  // mainNav();
+  mainNav();
   // carousel();
 });
 
@@ -19,20 +18,26 @@ function modal() {
     MODAL.classList.add("d-none");
   });
 }
-
-function sub_bg() {
-  const header = document.querySelector("header");
-  const div = document.createElement("div");
-  div.className = "gnb_bg";
-  header.appendChild(div);
-}
-
-function gnb(hit, gnb_sub) {
-  const GNB = document.querySelector("#gnb");
-}
-function gnbShow() {
-  const lnbAll = document.querySelectorAll(".lnb");
-  lnbAll.forEach(function (i) {
-    lnbAll[i].classList.add = "d-block";
+function mainNav() {
+  const headerNAV = document.querySelector(".header-nav");
+  headerNAV.addEventListener("mouseenter", function(){
+    addNavBg();
   });
+  // headerNAV.addEventListener("mouseleave", function(){
+  //   removeNavBg();
+  // });
+}
+/**
+ * 내비게이션 배경을 동적으로 추가하는 함수
+ */
+function addNavBg() {
+  const HEADER = document.querySelector("header");
+  const UL = document.querySelectorAll(".lnb");
+  const div = document.createElement("div");
+  div.className = "header_bg";
+  HEADER.appendChild(div);
+  UL.forEach(function(item) {
+    // item.classList.add = "d-block";
+    console.log(item);
+  })
 }

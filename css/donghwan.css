@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+.dong_top {
+    font-family: 'Montserrat','Noto Sans KR';
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    color: #666;
+    line-height: 1.4;
+    letter-spacing: -0.05em;
+    text-align: center;
+}
+
+
+.dong_top h3{
+    font-size: 40px;
+    color: #000;
+    padding-top: 0px;
+    display: block;
+    margin-bottom: 30px;
+}
+.dong_new ul{
+    display: flex;
+    justify-content: center;
+}
+
+li.left{
+    margin-top: 10px;
+    margin-right: 60px;
+    font-size: 30px;
+    color: #000;
+}
+.div {
+    display: block;
+}
+
+h2{
+    margin-top: 50px;
+    padding: 0;
+    
+}
+.inline li {
+    display: flex;
+    justify-content: center;
+}
+.pdt80 {
+    padding-top: 80px;
+}
