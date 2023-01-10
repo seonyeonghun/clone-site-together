@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.dong_top{
+.dong_top {
     font-family: 'Montserrat','Noto Sans KR';
     margin: 0;
     padding: 0;
@@ -11,6 +11,7 @@
     text-align: center;
 }
 
+
 .dong_top h3{
     font-size: 40px;
     color: #000;
@@ -18,22 +19,30 @@
     display: block;
     margin-bottom: 30px;
 }
-.dong_new{
-    display: inline-block;
+.dong_new ul{
+    display: flex;
+    justify-content: center;
 }
-.dong_col2{
-    padding-bottom: 80px;
-    background: #fafafa;
+
+li.left{
+    margin-top: 10px;
+    margin-right: 60px;
+    font-size: 30px;
+    color: #000;
 }
-#dong_content {
-    width: 100%;
-    height: 400px;
-    margin-top: 70px;
+.div {
+    display: block;
 }
-#dong_container .dong_inner {
-    width: 1300px;
-    margin: 0 auto;
+
+h2{
+    margin-top: 50px;
+    padding: 0;
+    
 }
-#dong_container .dong_inner {
-    padding: 0px 20px;
+.inline li {
+    display: flex;
+    justify-content: center;
+}
+.pdt80 {
+    padding-top: 80px;
 }
