@@ -32,7 +32,9 @@ form,
 fieldset {
   border: 0;
 }
-
+.d-block {
+  display: block;
+}
 .d-none {
   display: none;
 }
@@ -56,7 +58,12 @@ fieldset {
 .text-center {
   text-align: center;
 }
-
+.py-1 {
+  padding: 1rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
 .py-3 {
   padding: 3rem 0;
 }
@@ -137,6 +144,9 @@ fieldset {
   margin: 10px 0;
 }
 
+header {
+  position: relative;
+}
 .header-wrap,
 .footer-wrap {
   max-width: 1440px;
@@ -144,23 +154,54 @@ fieldset {
   display: flex;
   align-items: center;
 }
-.logo {
+.header-logo {
   flex: 1;
+}
+.fluid-img {
+  width: 100%;
+  object-fit: cover;
 }
 .header-nav {
   flex: 8;
 }
+.gnb_bg {
+  position: absolute;
+  width: 100%;
+  top: 92.79px;
+  height: 150px;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
 #gnb {
   display: flex;
-  gap: 3rem;
   justify-content: center;
 }
 #gnb > li {
   text-align: center;
   font-size: 1.2rem;
+  position: relative;
+  padding: 2rem 1rem;
+}
+#gnb > li .lnb a {
+  font-size: 0.875rem;
+}
+#gnb > li:hover > .lnb {
+  display: none;
+  position: absolute;
+  width: 100%;
+  color: white;
+  top: 100%;
+  z-index: 1000;
 }
 .lnb {
   display: none;
+  position: absolute;
+}
+.lnb li {
+  padding: 0.5rem 0;
+}
+.lnb li:hover {
+  color: #1a70b3;
 }
 .lang-links {
   flex: 1;
