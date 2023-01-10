@@ -18,26 +18,33 @@ function modal() {
     MODAL.classList.add("d-none");
   });
 }
+
 function mainNav() {
-  const headerNAV = document.querySelector(".header-nav");
-  headerNAV.addEventListener("mouseenter", function(){
-    addNavBg();
+  const headerNav = document.querySelector(".header-nav");
+  const headerBg = document.querySelector(".header-bg");
+  headerNav.addEventListener("mouseenter", function () {
+    const subNav = document.querySelectorAll(".lnb");
+    !isHit ? show(headerBg) : null;
+    subNav.forEach(function (item) {
+      item.classList.remove("d-none");
+    });
   });
-  // headerNAV.addEventListener("mouseleave", function(){
-  //   removeNavBg();
-  // });
+  headerBg.addEventListener("mouseleave", function () {
+    isHit ? hide(headerBg) : null;
+  });
 }
 /**
  * 내비게이션 배경을 동적으로 추가하는 함수
  */
-function addNavBg() {
-  const HEADER = document.querySelector("header");
-  const UL = document.querySelectorAll(".lnb");
-  const div = document.createElement("div");
-  div.className = "header_bg";
-  HEADER.appendChild(div);
-  UL.forEach(function(item) {
-    // item.classList.add = "d-block";
-    console.log(item);
-  })
+function show(target) {
+  target.classList.remove("d-none");
+  isHit = true;
+}
+function hide(target) {
+  const subNav = document.querySelectorAll(".lnb");
+  target.classList.add("d-none");
+  subNav.forEach(function (item) {
+    item.classList.add("d-none");
+  });
+  isHit = false;
 }

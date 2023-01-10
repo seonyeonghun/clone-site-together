@@ -143,10 +143,10 @@ fieldset {
 .bar:nth-child(2) {
   margin: 10px 0;
 }
-.header {
+header {
   position: relative;
 }
-.header_bg {
+.header-bg {
   position: absolute;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.7);
@@ -185,11 +185,15 @@ fieldset {
 #gnb > li {
   text-align: center;
   font-size: 1.2rem;
-  padding: 1.5rem 0;
+  padding: 1.5rem 2rem;
+  position: relative;
 }
 .lnb {
-  display: none;
   position: absolute;
+  color: white;
+  z-index: 200;
+  top: 100%;
+  font-size: 0.925rem;
 }
 .lnb li {
   padding: 0.5rem 0;
@@ -242,6 +246,7 @@ fieldset {
   border: 0;
   border: 1px solid #ccc;
   padding: 0.5rem 3rem 0.5rem 1.5rem;
+  margin: 1rem 0 0 0;
 }
 
 /* article */
