@@ -10,8 +10,6 @@
     letter-spacing: -0.05em;
     text-align: center;
 }
-
-
 .dong_top h3{
     font-size: 40px;
     color: #000;
@@ -19,30 +17,86 @@
     display: block;
     margin-bottom: 30px;
 }
-.dong_new ul{
-    display: flex;
-    justify-content: center;
+.dong_col.careers {
+    padding-bottom: 80px;
+    background: #fafafa;
 }
-
-li.left{
-    margin-top: 10px;
-    margin-right: 60px;
-    font-size: 30px;
-    color: #000;
-}
-.div {
-    display: block;
-}
-
-h2{
-    margin-top: 50px;
-    padding: 0;
-    
-}
-.inline li {
-    display: flex;
-    justify-content: center;
+#dong_container .dong_inner {
+    width: 1300px;
+    margin: 0 auto;
 }
 .pdt80 {
     padding-top: 80px;
 }
+.dong_col .right {
+    display: inline-block;
+    width: 78%;
+    vertical-align: top;
+    font-size: 16px;
+    line-height: 2;
+}
+.dong_col2.careers .right .process_new div > span {
+    position: relative;
+    width: 25%;
+    text-align: left;
+    display: inline-block;
+    font-size: 17px;
+}
+.dong_col.careers .right .process_new div > span h1 {
+    font-size: 14px;
+    color: #1c75bc;
+    padding-top: 15px;
+    font-family: 'Noto Sans KR';
+}
+.dong_col2.careers .right .process_new div > span h2 {
+    font-size: 16px;
+    color: #333;
+    font-weight: normal;
+    font-family: 'Noto Sans KR';
+}
+
+.dong_col.careers .right .process_new div > span p {
+    float: left;
+}
+.dong_col{
+    position: relative;
+    font-size: 0px;
+}
+.dong_col .left {
+    display: inline-block;
+    width: 22%;
+    vertical-align: top;
+    font-size: 25px;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Noto Sans KR';
+    letter-spacing: 0px;
+}
+.dong_col .left p{
+    font-size: 15px;
+    margin: 0;
+}
+
+
+#formmail-write .form-group .form-control {
+    width: 100%;
+    padding: 8px 20px;
+    border: 0px solid #e0dedf;
+    background: #f0f0f0;
+    line-height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#formmail-write .form-group {
+    display: block;
+    margin-bottom: 10px;
+    align-items: center;
+}
+ .bo_privacy						{border:0px solid red;margin-top:20px;}
+ .bo_privacy .bop_tit	{text-align:left; font-size:18px; font-weight:bold; color:#111; line-height:200%;} 
+ .agr_content					{padding:10px; height:190px; line-height:150%; overflow:auto; border:1px solid #ebebeb;}
+ .agr_content textarea {line-height:100% !important;}
+ .bop_check						{padding:10px 0; border-bottom:1px solid #ededed;}
+ .bop_check .protxt		{text-align:left; font-size:13px; font-weight:bold; color:#555555; line-height:200%;}
+ 
+ 
