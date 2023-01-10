@@ -14,9 +14,91 @@
     <script src="https://kit.fontawesome.com/092cd77c22.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <h1 class="d-none">아이딕션 웹사이트 클론코딩</h1>
+    <div id="modal" class="d-none">
+        <div class="modal-wrap">
+            <button id="closer" type="button">&times;</button>
+            <div class="modal-inner">
+                <ul class="site-map">
+                    <li><a href="#">아이딕션</a>
+                        <ul class="site-sub">
+                            <li><a href="#">아이딕션 웨이</a></li>
+                            <li><a href="#">연혁</a></li>
+                            <li><a href="#">주요관계사</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">서비스</a>
+                        <ul class="site-sub">
+                            <li><a href="#">핵심기술</a></li>
+                            <li><a href="#">비즈니스모델</a></li>
+                            <li><a href="#">서비스</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">뉴스룸</a>
+                        <ul class="site-sub">
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">이벤트</a></li>
+                            <li><a href="#">언론보도</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">제휴제안</a>
+                        <ul class="site-sub">
+                            <li><a href="#">제휴 안내</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <header>
-        <!-- 헤더 들어올 곳 -->
-
+        <div class="header-wrap py-3">
+            <div class="header-logo">
+                <a href="#">
+                    <img src="images/logo.png" alt="아이딕션">
+                </a>
+            </div>
+            <nav class="header-nav">
+                <ul id="gnb">
+                    <li>
+                        <a href="idiction-way-index.html">아이딕션</a>
+                        <ul class="lnb">
+                            <li><a href="idiction-way-index.html">아이딕션웨이</a></li>
+                            <li><a href="#">연혁</a></li><!-- 복연님 -->
+                            <li><a href="partners.html">주요관계사</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="services.html">서비스</a>
+                        <ul class="lnb">
+                            <li><a href="#">핵심기술</a></li>
+                            <li><a href="#">비즈니스모델</a></li>
+                            <li><a href="#">서비스</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="notice.html">뉴스룸</a>
+                        <ul class="lnb">
+                            <li><a href="notice.html">공지사항</a></li>
+                            <li><a href="event.html">이벤트</a></li>
+                            <li><a href="newsmedia.html">언론보도</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="offer.html">제휴제안</a><!--동환-->
+                        <ul class="lnb">
+                            <li><a href="offer.html">제휴안내</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="lang-links">
+                <li class="active"><a href="#">kor</a></li>
+                <li><a href="#">eng</a></li>
+            </ul>
+            <div id="opener">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+        <!-- /.header-wrap -->
     </header>
 
     <div id="visual">
