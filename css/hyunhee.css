@@ -8,101 +8,44 @@ a:link {
 .newsroom {
   display: flex;
   justify-content: center;
-  max-width: 1000px;
-  margin: 10rem auto;
+  max-width: 1290px;
+  margin: 5rem auto;
   column-gap: 5rem;
 }
-.news1 {
-  flex: 1;
+.newsroom > div{
+  flex: 1 1 auto;
+  transition: all .3s;
+  box-shadow: 4px 12px 30px 6px rgb(214, 214, 214);
+  border-radius: 20px;
   background-color: rgb(255, 255, 255);
-  width: 500px;
-  height: 570px;
+  overflow: hidden;
+}
+.newsroom > div:hover{
   border-radius: 20px;
   box-shadow: 4px 12px 30px 6px rgb(167, 167, 167);
+  transform: translateY(-1rem);
 }
-.news1 .sizeApp {
-  padding: 30px 50px 30px;
-}
-.news1 h1 {
+.newsroom h1{
+  font-size: 1.5rem;
   letter-spacing: -0.05em;
 }
-.news1 .sizeApp strong {
+.newsroom strong{
   color: #666;
   font-size: 1rem;
 }
-.news1 .sizeApp h3 {
+.newsroom h3 {
   color: #888;
   font-size: 0.875rem;
   font-weight: 600;
 }
-.news1 .sizeApp span {
+.newsroom span {
   color: #666;
   font-weight: 600;
 }
-.news1 .imgbox img {
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-}
-.news2 {
-  flex: 1;
-  background-color: rgb(255, 255, 255);
-  width: 500px;
-  height: 570px;
-  border-radius: 20px;
-  box-shadow: 4px 12px 30px 6px rgb(167, 167, 167);
-}
-.news2 .sizeDB {
+.sizepd{
   padding: 30px 50px 30px;
 }
-.news2 h1 {
-  letter-spacing: -0.05em;
-}
-.news2 .sizeDB strong {
-  color: #666;
-  font-size: 1rem;
-}
-.news2 .sizeDB h3 {
-  color: #888;
-  font-size: 0.875rem;
-  font-weight: 600;
-}
-.news2 .sizeDB span {
-  color: #666;
-  font-weight: 600;
-}
-.news2 .imgbox img {
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-}
-.news3 {
-  flex: 1;
-  background-color: rgb(255, 255, 255);
-  width: 500px;
-  height: 570px;
-  border-radius: 20px;
-  box-shadow: 4px 12px 30px 6px rgb(167, 167, 167);
-}
-
-.news3 .CJ {
-  padding: 30px 50px 30px;
-}
-.news3 h1 {
-  letter-spacing: -0.05em;
-}
-.news3 .CJ strong {
-  color: #666;
-  font-size: 1rem;
-}
-.news3 .CJ h3 {
-  color: #888;
-  font-size: 0.875rem;
-  font-weight: 600;
-}
-.news3 .CJ span {
-  color: #666;
-  font-weight: 600;
-}
-.news3 .imgbox img {
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+.imgbox img{
+  width: 100%;
+  object-fit: cover;
 }

@@ -22,21 +22,33 @@ h4{
 }
 .dbimg{
     text-align: center;
-    margin-bottom: 3rem;
 }
 article #content{
    font-size: 1rem;
    max-width: 1290px;
-   margin: 0 auto;
+   margin: 3rem auto;
    color: #888;
    line-height: 1.7rem;
    letter-spacing: -0.05em;
 }
 .tags{
     text-align: center;
-    padding: 1rem;
+    padding: 6rem;
+    margin: auto;
+    border-bottom: 1px solid rgb(185, 185, 185);
+    width: 1290px;
+}
+.tags span{
+    background-color: rgb(238, 236, 236);
+    padding: .5rem 1rem;
+    border-radius: 5rem;
 }
 .list_btn{
     text-align: center;
-    padding: 1rem;
+    margin-top: 5rem;
+}
+.list_btn a{
+    border: 1px solid rgb(223, 223, 223);
+    padding: 1rem 3rem;
+    font-size: 1.25rem;
 }
