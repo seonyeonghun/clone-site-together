@@ -212,8 +212,11 @@ fieldset {
 /* article */
 .community-wrap,
 .solution-wrap,
-.benefit-wrap {
+.benefit-wrap,
+.use-case {
   display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .community-wrap {
   gap: 1rem;
@@ -274,7 +277,10 @@ fieldset {
 .howto-wrap h4 + p {
   font-size: 2rem;
   color: #333;
-  margin: .5rem 0
+  margin: 0.5rem 0;
+}
+.use-case {
+  gap: 1rem;
 }
 
 .use-case img {
