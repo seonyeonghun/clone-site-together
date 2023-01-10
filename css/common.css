@@ -32,7 +32,9 @@ form,
 fieldset {
   border: 0;
 }
-
+.d-block {
+  display: block;
+}
 .d-none {
   display: none;
 }
@@ -136,7 +138,16 @@ fieldset {
 .bar:nth-child(2) {
   margin: 10px 0;
 }
-
+.header {
+  position: relative;
+}
+.header_bg {
+  position: absolute;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 150px;
+  z-index: 100;
+}
 .header-wrap,
 .footer-wrap {
   max-width: 1440px;
@@ -158,6 +169,7 @@ fieldset {
 #gnb > li {
   text-align: center;
   font-size: 1.2rem;
+  padding: 1.5rem 0;
 }
 .lnb {
   display: none;
