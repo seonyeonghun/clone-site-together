@@ -8,8 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+KR&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/common.css">
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/common.css">
 </head>
 <body>
     <h1 class="d-none">아이딕션 웹사이트 클론코딩</h1>
@@ -20,28 +20,28 @@
                 <ul class="site-map">
                     <li><a href="#">아이딕션</a>
                         <ul class="site-sub">
-                            <li><a href="#">아이딕션 웨이</a></li>
-                            <li><a href="#">연혁</a></li>
-                            <li><a href="#">주요관계사</a></li>
+                            <li><a href="idiction-way-index.html">아이딕션 웨이</a></li>
+                            <li><a href="history.html">연혁</a></li>
+                            <li><a href="partners.html">주요관계사</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">서비스</a>
+                    <li><a href="services.html">서비스</a>
                         <ul class="site-sub">
                             <li><a href="#">핵심기술</a></li>
                             <li><a href="#">비즈니스모델</a></li>
                             <li><a href="#">서비스</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">뉴스룸</a>
+                    <li><a href="notice.html">뉴스룸</a>
                         <ul class="site-sub">
-                            <li><a href="#">공지사항</a></li>
-                            <li><a href="#">이벤트</a></li>
-                            <li><a href="#">언론보도</a></li>
+                            <li><a href="notice.html">공지사항</a></li>
+                            <li><a href="event.html">이벤트</a></li>
+                            <li><a href="newsmedia.html">언론보도</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">제휴제안</a>
+                    <li><a href="offer.html">제휴제안</a>
                         <ul class="site-sub">
-                            <li><a href="#">제휴 안내</a></li>
+                            <li><a href="offer.html">제휴 안내</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -49,38 +49,38 @@
         </div>
     </div>
     <header>
-        <div class="header-wrap py-3">
+        <div class="header-wrap">
             <div class="header-logo">
                 <a href="#">
-                    <img src="images/logo.png" alt="아이딕션">
+                    <img src="images/logo.png" alt="아이딕션" class="fluid-img">
                 </a>
             </div>
             <nav class="header-nav">
                 <ul id="gnb">
                     <li>
                         <a href="idiction-way-index.html">아이딕션</a>
-                        <ul class="lnb">
+                        <ul class="lnb d-none">
                             <li><a href="idiction-way-index.html">아이딕션웨이</a></li>
-                            <li><a href="#">연혁</a></li><!-- 복연님 -->
+                            <li><a href="history.html">연혁</a></li><!-- 복연님 -->
                             <li><a href="partners.html">주요관계사</a></li>
                         </ul>
                     </li>
                     <li><a href="services.html">서비스</a>
-                        <ul class="lnb">
+                        <ul class="lnb d-none">
                             <li><a href="#">핵심기술</a></li>
                             <li><a href="#">비즈니스모델</a></li>
                             <li><a href="#">서비스</a></li>
                         </ul>
                     </li>
                     <li><a href="notice.html">뉴스룸</a>
-                        <ul class="lnb">
+                        <ul class="lnb d-none">
                             <li><a href="notice.html">공지사항</a></li>
                             <li><a href="event.html">이벤트</a></li>
                             <li><a href="newsmedia.html">언론보도</a></li>
                         </ul>
                     </li>
                     <li><a href="offer.html">제휴제안</a><!--동환-->
-                        <ul class="lnb">
+                        <ul class="lnb d-none">
                             <li><a href="offer.html">제휴안내</a></li>
                         </ul>
                     </li>
@@ -96,6 +96,7 @@
                 <span class="bar"></span>
             </div>
         </div>
+        <div class="header-bg d-none"></div>
         <!-- /.header-wrap -->
     </header>
     <!-- 공통 헤더 : modal, header 부분을 삽입합니다. css-->
