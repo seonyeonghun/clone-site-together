@@ -35,9 +35,9 @@
     font-size: 16px;
     line-height: 2;
 }
-.dong_col2.careers .right .process_new div > span {
+.dong_col.careers .right .process_new div > span {
     position: relative;
-    width: 25%;
+    width: 24%;
     text-align: left;
     display: inline-block;
     font-size: 17px;
@@ -48,7 +48,7 @@
     padding-top: 15px;
     font-family: 'Noto Sans KR';
 }
-.dong_col2.careers .right .process_new div > span h2 {
+.dong_col.careers .right .process_new div > span h2 {
     font-size: 16px;
     color: #333;
     font-weight: normal;
@@ -99,4 +99,24 @@
  .bop_check						{padding:10px 0; border-bottom:1px solid #ededed;}
  .bop_check .protxt		{text-align:left; font-size:13px; font-weight:bold; color:#555555; line-height:200%;}
  
- 
+ #formmail-write .form-footer {
+    padding-top: 50px;
+    text-align: center;
+    border-top: 1px solid #e0dedf;
+    color: #000;
+}
+#formmail-write .btn_submit {
+    padding: 10px 50px;
+    font-size: 1.2em;
+    height: auto;
+}
+.wr_btn:before {
+    content: '';
+    display: block;
+    width: 120%;
+    height: 100%;
+    position: absolute;
+}
+.wr_btn{
+    background-color: #111;
+}
