@@ -99,7 +99,13 @@
  .bop_check						{padding:10px 0; border-bottom:1px solid #ededed;}
  .bop_check .protxt		{text-align:left; font-size:13px; font-weight:bold; color:#555555; line-height:200%;}
  
- #formmail-write .form-footer {
+ 
+ #formmail-write .privacy-of-use-check {
+    text-align: right;
+    padding: 10px;
+    color: #8a8a8a;
+    font-size: 14px;
+}#formmail-write .form-footer {
     padding-top: 50px;
     text-align: center;
     border-top: 1px solid #e0dedf;
@@ -110,6 +116,83 @@
     font-size: 1.2em;
     height: auto;
 }
+#formmail-write .form-group>div {
+    width: 100%;
+    text-align: left;
+}
+#captcha {
+    display: inline-block;
+    position: relative;
+    border: 0;
+}
+#captcha #captcha_img {
+    height: 40px;
+    border: 1px solid #898989;
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+}
+#captcha legend {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -9999em;
+    overflow: hidden;
+}
+#captcha #captcha_key {
+    margin: 0 0 0 3px;
+    padding: 0 5px;
+    width: 90px;
+    height: 40px;
+    border: 1px solid #ccc;
+    background: #fff;
+    font-size: 1.333em;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 3px;
+    vertical-align: top;
+}
+#captcha #captcha_mp3 {
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    background: transparent;
+    vertical-align: middle;
+    overflow: hidden;
+    cursor: pointer;
+    background: url(../images/dongsoju_6.png) no-repeat;
+    text-indent: -999px;
+    border-radius: 3px;
+}
+#captcha #captcha_reload {
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    background: transparent;
+    vertical-align: middle;
+    overflow: hidden;
+    cursor: pointer;
+    background: url(../images/dongsoju_6.png) no-repeat 0 -40px;
+    text-indent: -999px;
+    border-radius: 3px;
+}
+#captcha #captcha_info {
+    display: block;
+    margin: 5px 0 0;
+    font-size: 0.95em;
+    letter-spacing: -0.1em;
+}
+#captcha {
+    display: inline-block;
+    position: relative;
+}
+
 .wr_btn:before {
     content: '';
     display: block;
@@ -119,4 +202,9 @@
 }
 .wr_btn{
     background-color: #111;
+    border: 0px solid #d0d0d0;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    color: #fff !important;
 }
