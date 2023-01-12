@@ -47,7 +47,7 @@ a, a:link {
 	justify-content: center;
 } 
 .company-img {
-	margin: 3rem 3rem;
+	margin: 3rem 1rem;
 	min-height: 400px;
 	width: 1920px;
 	background-image: url("../images/joby_sub_visual1-2.jpg"); /* 배경이미지 : 경로() */
@@ -59,8 +59,8 @@ a, a:link {
 	display: flex;
 } 
 .current{
-	margin-left: 8.125rem;
-	margin-right: 9.375rem;
+	margin-left: 20.125rem;
+	margin-right: 11rem;
 	font-size: 1.8rem;
 	font-weight: 600;
 } 
@@ -68,6 +68,8 @@ a, a:link {
 	display: flex;
 	margin-top: 6.25rem;
 	margin-bottom: 6.875rem;
+	padding-bottom: 4rem;
+	border-bottom: 1px solid #d8d8d8;
 
 
 } 
@@ -81,6 +83,7 @@ a, a:link {
 	display: flex;
 	justify-content: center;
 } 
+
 .detail li {
 	margin: .625rem 0;
 	font-size: 1.2rem;
